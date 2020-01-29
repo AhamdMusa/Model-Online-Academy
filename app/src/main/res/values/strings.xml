@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Online Academy</string>
+    <string name="title_home">Courses Length</string>
+    <string name="title_dashboard">Category</string>
+    <string name="title_notifications">Exam</string>
+    <string name="title_profile">Profile</string>
+    <string name="cse"> B.Sc in CES</string>
+    <string name="bsccse">The Bachelor of Computer Science is a type of bachelor degree, usually awarded after three or four years of collegiate study in computer science,but possibly awarded in fewer years depending on factors such as an institution course requirements and academic calendar.</string>
+    <string name="eee"> B.Sc in EEE</string>
+    <string name="bsceee">Bachelor of Electrical Engineering is an undergraduate academic degree offered to a student who completes three to five years of study in electrical engineering at a university or college.Program duration varies throughout the world depending upon the education curriculum. </string>
+    <string name="ete"> B.Sc in ETE</string>
+    <string name="bscete">Telecommunications Engineering is an engineering discipline centered on electrical and computer engineering which seeks to support and enhance telecommunication systems.The work ranges from basic circuit design to strategic mass developments.</string>
+    <string name="pharma">B.Sc in Pharmacy</string>
+    <string name="bscpharma">A Bachelor of Pharmacy (abbreviated B Pharm or PharmB or BS Pharm) is an undergraduate academic degree in the field of pharmacy. In many countries, this degree is a prerequisite for registration to practice as a pharmacist.</string>
+    <string name="onlineacademi">Your trusted place for achieving every career goals online</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="credit">How many credits you want to take in this semester</string>
+    <string name="creditlimit">(More then 12 and less then 17 credit)</string>
+</resources>

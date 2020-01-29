@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+<!--<com.smarteist.autoimageslider.SliderView-->
+<!--    android:id="@+id/imageSlider"-->
+<!--    android:background="#cfd8dc"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="250dp"-->
+<!--    app:sliderAnimationDuration="2500"-->
+<!--    app:sliderAutoCycleDirection="back_and_forth"-->
+<!--    app:sliderAutoCycleEnabled="true"-->
+<!--    app:sliderCircularHandlerEnabled="true"-->
+<!--    app:sliderIndicatorAnimationDuration="2500"-->
+<!--    app:sliderIndicatorGravity="center_horizontal|bottom"-->
+<!--    app:sliderIndicatorMargin="15dp"-->
+<!--    app:sliderIndicatorOrientation="horizontal"-->
+<!--    app:sliderIndicatorPadding="3dp"-->
+<!--    app:sliderIndicatorRadius="2dp"-->
+<!--    app:sliderIndicatorSelectedColor="#5A5A5A"-->
+<!--    app:sliderIndicatorUnselectedColor="#FFF"-->
+<!--    app:sliderStartAutoCycle="true"-->
+<!--    />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+    <ImageView
+        android:id="@+id/imagview1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/pic2"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="#ffffff"
+        android:id="@+id/cardview1">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/bsclogo"
+        android:src="@drawable/bsc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bachelor  Program"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+</LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_toRightOf="@id/cardview1"
+        android:id="@+id/cardview2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/diploma"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diploma  Program"
+                android:textSize="15dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="#ffffff"
+        android:id="@+id/cardview3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/bsclogo2"
+                android:src="@drawable/certification"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Certification Courses"
+                android:textSize="15dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_toRightOf="@id/cardview3"
+        android:id="@+id/cardview4">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/worksope"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Worksope"
+                android:textSize="15dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
